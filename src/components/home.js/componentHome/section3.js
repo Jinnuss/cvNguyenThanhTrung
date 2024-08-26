@@ -8,11 +8,11 @@ export default function Experience() {
                     WORK EXPERIENCE
                 </div>
             </div>
-            <div className='md:flex justify-between sm:block md:items-center'>
-                <div className='md:mr-[20px] md:w-[50%] imgEx sm:w-[100%] mb-[30px]'>
+            <div className='lg:flex justify-between sm:block md:items-center'>
+                <div className='md:mr-[20px] lg:w-[50%] imgEx sm:w-[100%] mb-[30px]'>
                     <img src={exp} alt="image" className='rounded-[20px]' />
                 </div>
-                <div className='md:text-end md:w-[50%] sm:text-center'>
+                <div className='lg:text-end lg:w-[50%] sm:text-center'>
                     <div className="text-[24px] font-bold mb-[10px]">
                         Sodo Asia Technology and Trading LLC
                     </div>
@@ -31,7 +31,7 @@ export default function Experience() {
                     <div className='text-[16px] font-bold'>
                         Participate directly in the project.
                     </div>
-                    <div className='flex mt-[20px] md:justify-end sm:justify-center md:items-center'>
+                    <div className='flex mt-[20px] lg:justify-end sm:justify-center md:items-center'>
                         <div className='itemLink button-89 font-bold'>
                             <a href="https://customer.sumoexpress.vn/yahooauction/estimate" target="blank" > Link website </a>
                         </div>

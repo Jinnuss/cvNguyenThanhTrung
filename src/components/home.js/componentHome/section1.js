@@ -135,7 +135,7 @@ export default function Section1Home() {
 
                                     </div>
                                 </div>
-                                <div className='flex justify-center mb-[20px] md:w-[55%]'>
+                                <div className='flex justify-center mb-[20px] lg:w-[55%]'>
                                     <div className="item2-section2home-right lg:w-[100%] sm:w-[100%]">
                                         <div className="flex ml-[40px] justify-between mb-[20px]">
                                             <Item2Section2 icon={<FaReact />} title="ReactJS" desc="Acquire knowledge applicable to both large and small projects, including interface design, developing a music listening website, and building a comprehensive recruitment website with all essential functionalities." />
