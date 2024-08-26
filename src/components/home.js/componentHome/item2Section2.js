@@ -5,11 +5,11 @@ export default function Item2Section2(props) {
     const desc = props.desc;
     return (
         <>
-            <div className="mr-[20px] w-[230px]">
+            <div className="mr-[20px] w-[50%]">
                 <div className="text-[40px] font-bold text-[#2F89EC] mb-[10px]">
                     {icon}
                 </div>
-                <div className="text-[20px] font-bold mb-[10px]">
+                <div className="text-[20px] font-bold mb-[10px] h-[50px]">
                     {title}
                 </div>
                 <div className="text-[16px]">
