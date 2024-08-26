@@ -74,8 +74,8 @@ export default function Section1Home() {
                     <div className="item1-section2home left-[5%]  absolute sm:top-[48%] md:top-[55%] lg:top-[75%] w-[90%] bg-[white]" id='About'>
                         <div >
                             <div id='Edu' className='h-[100px]'> </div>
-                            <div className="flex justify-center">
-                                <div className="text-[#2F89EC] text-[40px] font-bold">
+                            <div className="flex justify-center mb-[30px]">
+                                <div className="text-[#2F89EC] md:text-[40px] sm:text-[32px] font-bold">
                                     EDUCATION
                                 </div>
                             </div>
@@ -86,18 +86,18 @@ export default function Section1Home() {
                                 <div className="w-[1px] h-[9-%] bg-[#555555]"></div>
                                 <ItemSection2 number={0} gpa="3.2" title="GPA" desc="" />
                             </div>
-                            <div className='flex  justify-center mt-[40px]'>
+                            <div className='flex px-[10%] pt-[3%] justify-center md:mt-[40px] sm:mt-[20px]'>
                                 <img src={img2} alt='ảnh' className='imgEx' />
                             </div>
                         </div>
                         <div>
                             <div id='Skill' className='h-[100px]'> </div>
-                            <div className="flex justify-center mb-[10px]" id=''>
-                                <div className="text-[#2F89EC] text-[40px] font-bold">
+                            <div className="flex justify-center" id=''>
+                                <div className="text-[#2F89EC] md:text-[40px] sm:text-[32px] font-bold text-center">
                                     SKILLS AND PROFESSIONAL GOALS
                                 </div>
                             </div>
-                            <div className="md:block lg:flex px-[10%] py-[3%] lg:justify-between mb-[50px]">
+                            <div className="md:block lg:flex px-[10%] py-[3%] lg:justify-between mb-[0px]">
                                 <div className='flex justify-center mb-[40px]'>
                                     <div className="item2-section2home-left w-[40%]">
                                         <div className="item2-section2home-left-card-inner">
@@ -135,8 +135,8 @@ export default function Section1Home() {
 
                                     </div>
                                 </div>
-                                <div className='flex justify-center mb-[20px] w-[55%]'>
-                                    <div className="item2-section2home-right lg:w-[100%] md:w-[100%]">
+                                <div className='flex justify-center mb-[20px] md:w-[55%]'>
+                                    <div className="item2-section2home-right lg:w-[100%] sm:w-[100%]">
                                         <div className="flex ml-[40px] justify-between mb-[20px]">
                                             <Item2Section2 icon={<FaReact />} title="ReactJS" desc="Acquire knowledge applicable to both large and small projects, including interface design, developing a music listening website, and building a comprehensive recruitment website with all essential functionalities." />
                                             <Item2Section2 icon={<SiCss3 />} title="Tailwind, Bootstrap, HTML5, CSS, SCSS" desc="Possess application skills that can be utilized to develop web interfaces." />

@@ -67,34 +67,40 @@ export default function Menu() {
                         </a>
                     </div>
                     <div className='lg:hidden sm:block text-[white] font-bold mt-[10px] text-[30px]'>
-                        {menu ? <IoClose onClick={closeMenu} /> : <AiOutlineMenu onClick={openMenu} />}
+                        {menu ? <IoClose /> : <AiOutlineMenu onClick={openMenu} />}
                     </div>
                 </div>
             </div>
-            <div className={menu ? 'bg-[white]  opacity-100 mt-[5px] rounded-[10px] tableMenu lg:hidden md:block' : 'bg-[white]  opacity-100 mt-[20px] rounded-[10px] tableMenu lg:hidden hidden'} id='tableMenu'>
+            <div onClick={closeMenu} className={menu ? 'bg-[white]  opacity-100 mt-[5px] rounded-[10px] tableMenu lg:hidden md:block' : 'bg-[white]  opacity-100 mt-[20px] rounded-[10px] tableMenu lg:hidden hidden'} id='tableMenu'>
                 <div className='text-[16px]  mr-[10px] itemmenu flex items-center cursor-pointer hover:text-[22px] hover:font-bold hover:bg-[#6373c1fa] w-[100%] rounded-[10px]'>
                     <div className='inline-flex items-center'>
-                        <SiPowerpages className='mr-[10px] inline' />
+                        <IoPerson className='mr-[10px] inline' />
                     </div>
-                    About
+                    <a href='#about'>About</a>
                 </div>
                 <div className='text-[16px]  mr-[10px] itemmenu flex items-center cursor-pointer hover:text-[22px] hover:font-bold hover:bg-[#6373c1fa] w-[100%] rounded-[10px]'>
                     <div className='inline-flex items-center'>
-                        <TbSectionFilled className='mr-[10px] inline' />
+                        <IoBookSharp className='mr-[10px] inline' />
                     </div>
-                    Sections
+                    <a href='#Edu' >Education</a>
                 </div>
                 <div className='text-[16px]  mr-[10px] itemmenu flex items-center cursor-pointer hover:text-[22px] hover:font-bold hover:bg-[#6373c1fa] w-[100%] rounded-[10px]'>
                     <div className='inline-flex items-center'>
-                        <SiGoogledocs className='mr-[10px] inline' />
+                        <GiSkills className='mr-[10px] inline' />
                     </div>
-                    Docs
+                    <a href='#Skill'>Skills</a>
                 </div>
                 <div className='text-[16px]  mr-[10px] itemmenu flex items-center cursor-pointer hover:text-[22px] hover:font-bold hover:bg-[#6373c1fa] w-[100%] rounded-[10px]'>
                     <div className='inline-flex items-center'>
-                        <FaGithub className='mr-[10px] inline' />
+                        <MdWorkHistory className='mr-[10px] inline' />
                     </div>
-                    Github
+                    <a href='#exp'>Experience</a>
+                </div>
+                <div className='text-[16px]  mr-[10px] itemmenu flex items-center cursor-pointer hover:text-[22px] hover:font-bold hover:bg-[#6373c1fa] w-[100%] rounded-[10px]'>
+                    <div className='inline-flex items-center'>
+                        <PiProjectorScreenFill className='mr-[10px] inline' />
+                    </div>
+                    <a href='/'>Projects</a>
                 </div>
             </div>
 

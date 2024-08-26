@@ -2,7 +2,8 @@ import exp from '../../../imgs/image.png';
 export default function Experience() {
     return (
         <>
-            <div className="flex justify-center" id='exp'>
+            <div id='exp' className='h-[100px]'> </div>
+            <div className="flex justify-center" id=''>
                 <div className="text-[#2F89EC] mb-[60px] text-[34px] font-bold">
                     WORK EXPERIENCE
                 </div>
