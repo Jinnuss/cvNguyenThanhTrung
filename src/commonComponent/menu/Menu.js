@@ -58,7 +58,7 @@ export default function Menu() {
                             <div className='inline-flex items-center'>
                                 <PiProjectorScreenFill className='mr-[10px] inline' />
                             </div>
-                            <a href='/'>Projects</a>
+                            <a href='#project'>Projects</a>
                         </div>
                         <a href='/documents/cv-NguyenThanhTrung.pdf' download='/documents/cv-NguyenThanhTrung.pdf'>
                             <div className='text-[white] p-[10px] btn1 md:text-[16px] lg:text-[20px] text-[white] rounded-[10px] font-bold cursor-pointer opacity-80'>
@@ -100,7 +100,7 @@ export default function Menu() {
                     <div className='inline-flex items-center'>
                         <PiProjectorScreenFill className='mr-[10px] inline' />
                     </div>
-                    <a href='/'>Projects</a>
+                    <a href='#project'>Projects</a>
                 </div>
             </div>
 

@@ -14,6 +14,8 @@ import { FaAngular } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io5";
 import img2 from '../../../imgs/img2.png';
 import Experience from './section3';
+import Projects from './section4';
+import Footer from './footer';
 
 export default function Section1Home() {
     return (
@@ -99,7 +101,7 @@ export default function Section1Home() {
                             </div>
                             <div className="md:block lg:flex px-[10%] py-[3%] lg:justify-between mb-[0px]">
                                 <div className='flex justify-center mb-[40px]'>
-                                    <div className="item2-section2home-left w-[40%]">
+                                    <div className="item2-section2home-left w-[400px] h-[460px]">
                                         <div className="item2-section2home-left-card-inner">
                                             <div className="item2-section2home-left-card-front relative">
                                                 <div className="p-[40px]">
@@ -151,6 +153,9 @@ export default function Section1Home() {
                         </div>
                         <div className='px-[10%] py-[3%]'>
                             <Experience />
+                        </div>
+                        <div className='px-[10%] py-[3%]'>
+                            <Projects />
                         </div>
                     </div>
                 </div>
